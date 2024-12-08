@@ -5,7 +5,7 @@ import csv
 subject_file = r"CS Project\Tables\subjects.csv"
 questions_file = r"CS Project\Tables\questions.csv"
 
-def add_class(name, passing_grade, code, section): # Done
+def add_class(name, passing_grade, code, section):  # Done
     data = common_functions.__read_file_csv(subject_file)
     id = user.__maximum_id_csv(data)
     
@@ -19,7 +19,57 @@ def __check_if_class_exists(name, section, data):
     for subject in data:
         if subject[1] == name and subject[3] == section:
             return True
-        
+    return False
+
+def add_question(question, answers, correct, subject, difficulty):
+    data = common_functions.__read_file_csv(questions_file)
+    id = user.__maximum_id_csv(data)
+
+    if not __check_if_question_exists(question, subject, data):
+        new_question = [id, question] + answers + [correct, subject, difficulty]
+        common_functions.__add_csv(new_question, questions_file)
+        return True
+    return False
+
+def __check_if_question_exists(question, subject, data):
+    for q in data:
+        if q[1] == question and q[7] == subject:
+            return True
+    return False
+
+def edit_subject(subject_id, new_name=None, new_section=None, new_passing_grade=None, new_code=None):
+    data = common_functions.__read_file_csv(subject_file)
+
+    for subject in data:
+        if subject[0] == str(subject_id):
+            if new_name:
+                subject[1] = new_name
+            if new_section:
+                subject[4] = new_section
+            if new_passing_grade:
+                subject[2] = new_passing_grade
+            if new_code:
+                subject[3] = new_code
+            common_functions.__write_file_csv(subject_file, data)
+            return True
+    return False
+
+def remove_class(subject_id):
+    data = common_functions.__read_file_csv(subject_file)
+    new_data = [subject for subject in data if subject[0] != str(subject_id)]
+
+    if len(new_data) != len(data):
+        common_functions.__write_file_csv(subject_file, new_data)
+        return True
+    return False
+
+def remove_question(question_id):
+    data = common_functions.__read_file_csv(questions_file)
+    new_data = [question for question in data if question[0] != str(question_id)]
+
+    if len(new_data) != len(data):
+        common_functions.__write_file_csv(questions_file, new_data)
+        return True
     return False
 
 # add a question to questions.csv
