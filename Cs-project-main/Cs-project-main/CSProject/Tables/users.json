@@ -1,0 +1,188 @@
+[
+    {
+        "id": 2,
+        "nickname": "SkyWalker",
+        "firstname": "Jane",
+        "lastname": "Smith",
+        "status": "inactive",
+        "grades": [
+            92,
+            88,
+            81
+        ],
+        "password": "securePass@2024"
+    },
+    {
+        "id": 3,
+        "nickname": "QuantumGeek",
+        "firstname": "Emily",
+        "lastname": "Brown",
+        "status": "active",
+        "grades": [
+            {
+                "Calculus1": [
+                    89,
+                    "Passed!"
+                ]
+            },
+            {
+                "Calculus2": [
+                    89,
+                    "Passed!"
+                ]
+            },
+            {
+                "Calculus1": [
+                    87,
+                    "Passed!"
+                ]
+            }
+        ],
+        "password": "qWeRtY#5678"
+    },
+    {
+        "id": 4,
+        "nickname": "AnushkaTopushka",
+        "firstname": "Anushka",
+        "lastname": "Gexapetyanovich",
+        "status": "God",
+        "grades": [],
+        "password": "818489a8e0d24fbe19dc4f523309c6051cfdd05388d707644c418a50c758f4b2"
+    },
+    {
+        "id": 5,
+        "nickname": "AceCoder",
+        "firstname": "Aced",
+        "lastname": "Coder",
+        "status": "Instructor",
+        "grades": [],
+        "password": "f3d23cc621cb4220e5972faa9b89aa3bfabb2a241c1a59c21bd7ffe17867e1a0"
+    },
+    {
+        "id": 7,
+        "nickname": "albik",
+        "firstname": "Alik",
+        "lastname": "Blloyan",
+        "status": "student",
+        "grades": [
+            {
+                "Discrete": [
+                    40,
+                    "Failed!"
+                ]
+            },
+            {
+                "Calculus3": [
+                    20,
+                    "Failed!"
+                ]
+            }
+        ],
+        "password": "4f1d73a5458ac251a11860f4b5c7a6104676e475d8c6cffc8075c779fec73370"
+    },
+    {
+        "id": 6,
+        "nickname": "blik",
+        "firstname": "Aloo",
+        "lastname": "Blo",
+        "status": "student",
+        "grades": [
+            {
+                "Calculus1": [
+                    89,
+                    "Passed!"
+                ]
+            },
+            {
+                "Calculus2": [
+                    89,
+                    "Passed!"
+                ]
+            },
+            {
+                "Calculus1": [
+                    87,
+                    "Passed!"
+                ]
+            },
+            {
+                "Calculus1": [
+                    30,
+                    "Failed!"
+                ]
+            },
+            {
+                "Discrete": [
+                    80,
+                    "Passed!"
+                ]
+            }
+        ],
+        "password": "533a3df9085a0407ada828152fbe6e2e359970f45faeeddad24a9756e38fc070"
+    },
+    {
+        "id": 8,
+        "nickname": "lurjroj",
+        "firstname": "Lurjj",
+        "lastname": "Lrjyan",
+        "status": "instructor",
+        "grades": [],
+        "password": "108aedf757ac44c411e013ad7c29600edb5204f1026451058d197c9bed5a987c"
+    },
+    {
+        "id": 9,
+        "nickname": "rose",
+        "firstname": "Rose",
+        "lastname": "Hakobyan",
+        "status": "instructor",
+        "grades": [],
+        "password": "618d663af0f1ec88a5a19defa65a2f80d06582a832510b12f475d80870bdb3ab"
+    },
+    {
+        "id": 10,
+        "nickname": "vardush",
+        "firstname": "Vardush",
+        "lastname": "Sahakyan",
+        "status": "student",
+        "grades": [
+            {
+                "Calculus1": [
+                    50,
+                    "Passed!"
+                ]
+            },
+            {
+                "Calculus1": [
+                    80,
+                    "Passed!"
+                ]
+            }
+        ],
+        "password": "36c5bb8a38637c6df0deb91055d4e22743f2649269c57487ff95cc54452f73fd"
+    },
+    {
+        "id": 11,
+        "nickname": "BLBik",
+        "firstname": "Alo",
+        "lastname": "Blo",
+        "status": "instructor",
+        "grades": [],
+        "password": "154a87c6556f8c572250f6eaee754d38a62733a661d05ec9f4d1a6c6ce5e56d0"
+    },
+    {
+        "id": 12,
+        "nickname": "vzgo",
+        "firstname": "Vazgen",
+        "lastname": "Hambardumyan",
+        "status": "student",
+        "grades": [
+            {
+                "Geometry": [
+                    0,
+                    "Failed!"
+                ]
+            }
+        ],
+        "password": "818489a8e0d24fbe19dc4f523309c6051cfdd05388d707644c418a50c758f4b2"
+    }
+]
