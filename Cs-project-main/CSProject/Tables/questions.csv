@@ -1,6 +1,6 @@
 id,question,answer1,answer2,answer3,answer4,correct,subject,difficulty
-4,What is 3+4?,6,7,8,9,answer2,CS100,easy
-5,What is the binary representation of 5?,1010,110,101,111,answer3,CS100,easy
+4,What is 3+11?,6,14,8,9,answer2,CS100,easy
+5,What is 5*6?,10,12,36,30,answer3,CS100,easy
 6,What is 8*7?,56,49,64,48,answer1,CS100,easy
 7,What is 20-8?,10,12,15,18,answer2,CS100,easy
 8,What is 100/5?,10,15,20,25,answer3,CS100,easy
@@ -13,12 +13,12 @@ id,question,answer1,answer2,answer3,answer4,correct,subject,difficulty
 15,Derivative of sin(x),cos(x),tan(x),sin^2(x),1,answer1,CS100,medium
 16,Find the smallest prime number,1,2,3,4,answer2,CS100,medium
 17,What is 7^2?,36,49,56,42,answer2,CS100,medium
-18,Which is NOT a programming language?,Python,JavaScript,HTML,C++,answer3,CS100,medium
+18,Find (x^2)^3,x,x^5,x^6,x^2,answer3,CS100,medium
 19,Simplify: (x^2)(x^3),x^6,x^5,x^3,x^4,answer2,CS100,medium
-20,Find 15% of 200,20,25,30,15,answer3,CS100,medium
+20,Find 10% of 200,20,25,30,15,answer1,CS100,medium
 21,What is the area of a circle with radius 3?,28.27,30.14,31.42,32.76,answer1,CS100,medium
-22,What is the binary representation of 5?,1010,110,101,111,answer3,CS100,medium
-23,What is the derivative of sin(x)?,cos(x),tan(x),sin^2(x),1,answer1,CS100,medium
+22Find 10% of 50,50,10,5,100,answer3,CS100,medium
+23,What is the derivative of cos(x)?,-sin(x),tan(x),sin^2(x),1,answer1,CS100,medium
 24,Integral of 1/x,ln(x),x^2,1/x,x,answer1,CS100,hard
 25,Limit of 1/x as x approaches infinity,0,1,infinity,undefined,answer1,CS100,hard
 26,What is the derivative of x^2?,x,2x,3x^2,2x^2,answer2,CS100,hard
@@ -27,8 +27,8 @@ id,question,answer1,answer2,answer3,answer4,correct,subject,difficulty
 29,What is the derivative of e^x?,e^x,ln(x),e^x+1,e^x-1,answer1,CS100,hard
 30,What is the integral of x^2?,x^3/3,x^3/2,x^3,x^4,answer1,CS100,hard
 31,What is the integral of 2x?,x^2,2x^2,x^3,x^2/2,answer1,CS100,hard
-32,What is the derivative of cos(x)?,-sin(x),sin(x),-cos(x),tan(x),answer1,CS100,hard
-33,Find the limit of 1/x as x approaches infinity,0,1,infinity,undefined,answer1,CS100,hard
+32,What is the derivative of 4x?,-sin(x),4,8x,tan(x),answer1,CS100,hard
+33,Find the limit of 8/x as x approaches infinity,0,1,infinity,undefined,answer1,CS100,hard
 34,What is the smallest prime number?,1,2,3,4,answer2,CS101,easy
 35,What is the value of 3+5?,7,8,9,10,answer2,CS101,easy
 36,What is 9-3?,4,5,6,7,answer3,CS101,easy
@@ -36,58 +36,58 @@ id,question,answer1,answer2,answer3,answer4,correct,subject,difficulty
 38,What is 3*4?,11,12,13,14,answer2,CS101,easy
 39,Find 15% of 200,20,25,30,15,answer3,CS101,easy
 40,What is the sum of the angles of a triangle?,180,360,90,270,answer1,CS101,easy
-41,Find the value of log(10),1,10,2,0,answer1,CS101,easy
-42,Solve for x: x+5=10,5,10,15,20,answer1,CS101,easy
+41,Find the value of log(100),1,10,2,0,answer3,CS101,easy
+42,Solve for x: 2x+5=9,2,10,15,20,answer1,CS101,easy
 43,What is 100-45?,65,50,55,60,answer1,CS101,easy
-44,Find the derivative of x^2,2x,x^3,3x^2,2x^2,answer1,CS101,medium
-45,What is the integral of 1/x?,ln(x),x^2,1/x,x,answer1,CS101,medium
+44,Find the derivative of x^5,2x,5x^4,3x^2,2x^2,answer1,CS101,medium
+45,What is the derivative  of x?,ln(x),x^2,1,x,answer3,CS101,medium
 46,What is 7^2?,36,49,56,42,answer2,CS101,medium
-47,Which is NOT a programming language?,Python,JavaScript,HTML,C++,answer3,CS101,medium
-48,Solve for x: 2x=10,2,3,5,10,answer3,CS101,medium
-49,Limit of 1/x as x approaches infinity,0,1,infinity,undefined,answer1,CS101,medium
-50,Derivative of sin(x),cos(x),tan(x),sin^2(x),1,answer1,CS101,medium
-51,Find the smallest prime number,1,2,3,4,answer2,CS101,medium
-52,Find the value of log(10),0,1,10,infinity,answer2,CS101,medium
-53,What is the area of a circle with radius 3?,28.27,30.14,31.42,32.76,answer1,CS101,medium
-54,Solve for x: x+5=10,5,10,15,20,answer1,CS101,hard
-55,Find the derivative of x^2,2x,x^3,3x^2,2x^2,answer1,CS101,hard
-56,What is the integral of 1/x?,ln(x),x^2,1/x,x,answer1,CS101,hard
-57,What is the derivative of cos(x)?,-sin(x),sin(x),-cos(x),tan(x),answer1,CS101,hard
+47,What is the 40% of 100,100,10,40,80,answer3,CS101,medium
+48,Solve for x: 2x=16,2,3,8,10,answer3,CS101,medium
+49,Solve 4x=20,20,4,5,9,answer3,CS101,medium
+50,Derivative of 8,0,x,sin(x),1,answer1,CS101,medium
+51,Find the second smallest prime number,1,2,3,4,answer3,CS101,medium
+52,Find the value of log(1000),0,3,10,infinity,answer2,CS101,medium
+53,What is the value of sin(30°)?,1/2,1,0,-1,answer1,CS101,medium
+54,Solve for x: 3x+5=17,4,10,15,20,answer1,CS101,hard
+55,Find the derivative of x^8,2x,8x^7,3x^2,2x^2,answer1,CS101,hard
+56,What is the value of sin(90°)?,1/2,1,0,-1,answer2,CS101,hard
+57,What is the derivative of sin(2x)?,-2sin(x),sin(x),2cos(2x),tan(x),answer3,CS101,hard
 58,What is 1+2+3+4+5?,10,11,12,15,answer3,CS101,hard
-59,What is the derivative of x^2?,x,2x,3x^2,2x^2,answer2,CS101,hard
-60,Find 15% of 200,20,25,30,15,answer3,CS101,hard
-62,What is the value of log(10),0,1,10,infinity,answer2,CS101,hard
-63,What is the integral of 1/x?,ln(x),x^2,1/x,x,answer1,CS101,hard
+59,What is the derivative of x^10?,x,2x,3x^2,2x^2,answer2,CS101,hard
+60,Find 200% of 200,200,250,300,400,answer4,CS101,hard
+62,What is the value of log(1),0,-1,10,infinity,answer2,CS101,hard
+63,What is the area of rectangle with sides 2 and 4?,2,4,8,10,answer3,CS101,hard
 64,What is 3+4?,6,7,8,9,answer2,CS102,easy
-65,What is the binary representation of 5?,1010,110,101,111,answer3,CS102,easy
+65,What is 60-60,120,60,0,180,answer3,CS102,easy
 66,What is 8*7?,56,49,64,48,answer1,CS102,easy
 67,What is 20-8?,10,12,15,18,answer2,CS102,easy
 68,What is 100/5?,10,15,20,25,answer3,CS102,easy
 69,What is 2^3?,4,8,6,10,answer2,CS102,easy
 70,What is 5+3?,6,7,8,9,answer3,CS102,easy
-71,What is 6+7?,12,13,14,15,answer2,CS102,easy
+71,What is 6+10?,12,16,14,15,answer2,CS102,easy
 72,What is 2*5?,7,8,9,10,answer4,CS102,easy
-73,What is the square root of 16?,2,3,4,5,answer3,CS102,easy
-74,Solve for x: 2x=10,2,3,5,10,answer3,CS102,medium
-75,Derivative of sin(x),cos(x),tan(x),sin^2(x),1,answer1,CS102,medium
+73,What is the square root of 81?,2,3,9,5,answer3,CS102,easy
+74,Solve for x: 2x+80=10,20,35,-35,10,answer3,CS102,medium
+75,Derivative of sin(5x),5cos(5x),tan(2x),sin^2(5x),1,answer1,CS102,medium
 76,Find the smallest prime number,1,2,3,4,answer2,CS102,medium
-77,What is 7^2?,36,49,56,42,answer2,CS102,medium
-78,Which is NOT a programming language?,Python,JavaScript,HTML,C++,answer3,CS102,medium
-79,Simplify: (x^2)(x^3),x^6,x^5,x^3,x^4,answer2,CS102,medium
+77,What is 10^2?,36,100,56,42,answer2,CS102,medium
+78,What is the sum of the rectangle angles,180,360,270,90,answer2,CS102,medium
+79,Simplify: (x^20)(x^3),x^60,x^50,x^30,x^42,answer1,CS102,medium
 80,Find 15% of 200,20,25,30,15,answer3,CS102,medium
 81,What is the area of a circle with radius 3?,28.27,30.14,31.42,32.76,answer1,CS102,medium
-82,What is the binary representation of 5?,1010,110,101,111,answer3,CS102,medium
-83,What is the derivative of sin(x)?,cos(x),tan(x),sin^2(x),1,answer1,CS102,medium
-84,Integral of 1/x,ln(x),x^2,1/x,x,answer1,CS102,hard
-85,Limit of 1/x as x approaches infinity,0,1,infinity,undefined,answer1,CS102,hard
-86,What is the derivative of x^2?,x,2x,3x^2,2x^2,answer2,CS102,hard
-87,What is the value of log(10),0,1,10,infinity,answer2,CS102,hard
-88,What is 1+2+3+4+5?,10,11,12,15,answer3,CS102,hard
-89,What is the derivative of e^x?,e^x,ln(x),e^x+1,e^x-1,answer1,CS102,hard
-90,What is the integral of x^2?,x^3/3,x^3/2,x^3,x^4,answer1,CS102,hard
-91,What is the integral of 2x?,x^2,2x^2,x^3,x^2/2,answer1,CS102,hard
-92,What is the derivative of cos(x)?,-sin(x),sin(x),-cos(x),tan(x),answer1,CS102,hard
-93,Find the limit of 1/x as x approaches infinity,0,1,infinity,undefined,answer1,CS102,hard
+82,What is the area of rectangle with sides 20 and 4?,20,14,80,100,answer3,CS102,medium
+83,What is the derivative of -sin(x)?,-cos(x),tan(x),sin^2(x),1,answer1,CS102,medium
+84,Find the are of a square having a side 8,10,16,64,100,answer3,CS102,hard
+85,Limit of 1/(x+5) as x approaches infinity,0,1,infinity,undefined,answer1,CS102,hard
+86,What is the derivative of 5x^2?,x,10x,3x^2,2x^2,answer2,CS102,hard
+87,What is the value of log(0),0,1,10,none of the answers,answer4,CS102,hard
+88,What is 1+5+6+4+5?,10,21,12,15,answer2,CS102,hard
+89,What is the derivative of e^2x?,2e^2x,ln(x),e^x+1,e^x-1,answer1,CS102,hard
+90,What is the integral of x^22?,x^3/3,x^3/2,22x^3,x^4,answer1,CS102,hard
+91,What is the integral of 29x?,29x^2/2,2x^2,x^3,x^2/2,answer1,CS102,hard
+92,What is the derivative of cos(20x)?,-sin(20x),-20sin(20x),-cos(x),tan(x),answer1,CS102,hard
+93,Find the limit of 20/x as x approaches infinity,0,1,infinity,undefined,answer1,CS102,hard
 94,"What is the {1,2,3} intersection {1}?",{1,2,3},{2,3},{1},{2},answer3,CS111,easy
 95,"What is the cardinality of the set {2,5,8}?",1,2,3,4,answer3,CS111,easy
 96,What is the sum of first 5 natural numbers?,12,15,17,25,answer2,CS111,easy
